@@ -2,7 +2,7 @@
   "name": "sample-ang",
   "version": "1.0.0",
   "description": "A smaple angular application to learn gulp, less and other angular concepts",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,7 @@
     "jshint-stylish": "^2.2.1"
   },
   "dependencies": {
-    "blueimp-file-upload-node": "^2.1.0"
+    "blueimp-file-upload-node": "^2.1.0",
+    "express": "^4.15.3"
   }
 }
